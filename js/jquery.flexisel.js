@@ -8,7 +8,7 @@
 * Free to use and abuse under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 */
-
+import './jquery-2.1.4.min.js'
 (function ($) {
 
     $.fn.flexisel = function (options) {

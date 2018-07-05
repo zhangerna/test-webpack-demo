@@ -1,5 +1,5 @@
+import $ from "jquery"
 import '../css/index.less'
-import $ from 'jquery'
 import "bootstrap-sass/assets/stylesheets/_bootstrap.scss"
 import "bootstrap-sass/assets/javascripts/bootstrap.js"
 import 'owl.carousel/dist/assets/owl.carousel.css'
@@ -14,7 +14,7 @@ import '../js/JiSlider.js'
 
 
 $(document).ready(function() {
-  console.log("...14.")
+  console.log("...1t.")
     $("#flexiselDemo1").flexisel({
         visibleItems: 4,
         animationSpeed: 1000,
@@ -46,12 +46,12 @@ $(document).ready(function() {
     navigationText :  false,
     pagination : true,
   });
-  var tt = "hahahah";
-  var bb = "eeee";
-  var a = `
-    <p>${tt}</p>
-    <p>${val}</p>
-  `;
+  // var tt = "hahahah";
+  // var bb = "eeee";
+  // var a = `
+  //   <p>${tt}</p>
+  //   <p>${val}</p>
+  // `;
   $(".scroll").click(function(event){		
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);

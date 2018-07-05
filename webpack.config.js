@@ -15,7 +15,7 @@ var htmlConcat = () => {
 			new HtmlWebpackPlugin({
 				filename: `${item}.html`,
 				template: `./src/${item}.html`,
-				inject: 'head',
+				inject: true,
 				favico: './images/logo.png',
 				chunks: [item],
 				title: "hello,world"
