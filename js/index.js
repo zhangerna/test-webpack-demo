@@ -1,20 +1,19 @@
 import $ from "jquery"
 import '../css/index.less'
 import "bootstrap-sass/assets/stylesheets/_bootstrap.scss"
-import "bootstrap-sass/assets/javascripts/bootstrap.js"
+import "bootstrap-sass/assets/javascripts/bootstrap.min.js"
 import 'owl.carousel/dist/assets/owl.carousel.css'
 import 'owl.carousel'
+import '../css/JiSlider.less'
+import '../js/JiSlider.js'
 import '../css/font-awesome.css'
 import '../css/flexslider.less'
-import '../css/JiSlider.less'
 import './jquery.flexisel.js'
 import '../js/move-top.js';
 import '../js/easing.js'
-import '../js/JiSlider.js'
 
 
 $(document).ready(function() {
-  console.log("...1t.")
     $("#flexiselDemo1").flexisel({
         visibleItems: 4,
         animationSpeed: 1000,
